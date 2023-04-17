@@ -3,7 +3,7 @@ import sys
 sys.path.append(r"../../")
 import numpy as np
 from util import raster
-
+# 本文件是将掩膜栅格进行分块
 
 s_shape = (6000, 6000)
 mask_nodata = 0
@@ -27,10 +27,10 @@ def get_mask_fn(lat, lon):
 def break_mask_into_tiles(lon_t, lat_t, mask_tif, out_put_folder):
     """
 
-    :param lon_t:
-    :param lat_t:
-    :param mask_tif:
-    :param out_put_folder:
+    :param lon_t:研究区经度范围
+    :param lat_t:研究区纬度范围
+    :param mask_tif:掩膜栅格
+    :param out_put_folder:分块掩膜输出路径
     :return:
     """
 
