@@ -44,3 +44,17 @@ Besides, the code in the "core" folder is written in C and designed to conduct r
     - 247 - nodata
 
     - 255 - inland depression
+   
+  - 
+    ## 3. Draw Description
+1. Draw Figure 6. Run Draw.drawFig1('Global_statis1.csv') in main.py. Because the Global_statis1.csv file exceeds Github's upload limit, it cannot be uploaded. The data can be found at 10.5281/zenodo.16809392.
+
+2. Draw Figure 7 in ArcMap. The required data is the RiverLakeBains12-level vector data, available at https://doi.org/10.5281/zenodo.15695045.
+
+3. Draw Figure 8. Run Draw.drawFig2('dic', 'TopoCatArea.csv', 'Compare') in main.py. Because the data files exceed Github's upload limit, they cannot be uploaded. The data can be found at 10.5281/zenodo.16809392.
+
+4. Figure 9. This figure was drawn using Arcmap. The plot file (.mpk) is available at 10.5281/zenodo.16809392 and is titled "Comparison of GNWL and HyBAS Inner Flow Areas."
+
+5. Figure 10. This figure was drawn using Arcmap. The plot file (.mpk) is available at 10.5281/zenodo.16809392 and is titled "Comparison of Lake 16256."
+
+6. The data in Table 2 were obtained from https://doi.org/10.1016/j.scitotenv.2021.145463. For technical details, please refer to this paper, available at 10.5281/zenodo.16809392.
